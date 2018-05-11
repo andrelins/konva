@@ -2,7 +2,7 @@
  * Konva JavaScript Framework v2.0.3
  * http://konvajs.github.io/
  * Licensed under the MIT
- * Date: Mon May 07 2018
+ * Date: Fri May 11 2018
  *
  * Original work Copyright (C) 2011 - 2013 by Eric Rowell (KineticJS)
  * Modified work Copyright (C) 2014 - present by Anton Lavrenov (Konva)
@@ -18892,17 +18892,18 @@
     },
 
     _createAnchor: function(name) {
-      var anchor = new Konva.Rect({
-        stroke: 'rgb(0, 161, 255)',
-        fill: 'white',
-        strokeWidth: 1,
-        name: name,
-        width: 10,
-        height: 10,
-        offsetX: 5,
-        offsetY: 5,
-        draggable: true,
-        dragDistance: 0
+      var rotate = new Image();
+      rotate.src = "assets/imgs/indicates_rotation.png";
+
+      var anchor = new Konva.Image({
+          name: name,
+          image: rotate,
+          width: rotate.width,
+          height: rotate.height,
+          draggable: true,
+          dragDistance: 0,
+          offsetX: 75,
+          offsetY: 20
       });
       var self = this;
       anchor.on('mousedown touchstart', function(e) {

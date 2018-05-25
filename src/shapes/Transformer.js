@@ -269,7 +269,7 @@
 
     _createAnchor: function(name) {
       var rotate = new Image();
-      rotate.src = "assets/imgs/indicates_rotation.png";
+      rotate.src = "assets/images/desenhe-a-cena/indicates_rotation.png";
 
       var anchor = new Konva.Image({
           name: name,

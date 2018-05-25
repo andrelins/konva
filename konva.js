@@ -2,7 +2,7 @@
  * Konva JavaScript Framework v2.0.3
  * http://konvajs.github.io/
  * Licensed under the MIT
- * Date: Fri May 11 2018
+ * Date: Fri May 25 2018
  *
  * Original work Copyright (C) 2011 - 2013 by Eric Rowell (KineticJS)
  * Modified work Copyright (C) 2014 - present by Anton Lavrenov (Konva)
@@ -18893,7 +18893,7 @@
 
     _createAnchor: function(name) {
       var rotate = new Image();
-      rotate.src = "assets/imgs/indicates_rotation.png";
+      rotate.src = "assets/images/desenhe-a-cena/indicates_rotation.png";
 
       var anchor = new Konva.Image({
           name: name,

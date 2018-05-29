@@ -630,8 +630,7 @@ declare namespace Konva {
       image:
         | HTMLImageElement
         | HTMLCanvasElement
-        | HTMLVideoElement
-        | ImageBitmap,
+        | HTMLVideoElement,
       dstX: number,
       dstY: number
     ): void;
@@ -639,8 +638,7 @@ declare namespace Konva {
       image:
         | HTMLImageElement
         | HTMLCanvasElement
-        | HTMLVideoElement
-        | ImageBitmap,
+        | HTMLVideoElement,
       dstX: number,
       dstY: number,
       dstW: number,
@@ -650,8 +648,7 @@ declare namespace Konva {
       image:
         | HTMLImageElement
         | HTMLCanvasElement
-        | HTMLVideoElement
-        | ImageBitmap,
+        | HTMLVideoElement,
       srcX: number,
       srcY: number,
       srcW: number,
